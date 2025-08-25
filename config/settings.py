@@ -11,6 +11,19 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
 from pathlib import Path
+# config/settings.py
+
+INSTALLED_APPS = [
+    # ...
+    "polls",
+]
+
+TIME_ZONE = "Asia/Bangkok"
+USE_TZ = True
+USE_I18N = True
+# Älä lisää USE_L10N (poistettu Django 5:ssa)
+
+ALLOWED_HOSTS = ["*"]  # vain kehitykseen
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
