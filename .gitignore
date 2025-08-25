@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtualenv
+myvenv/
+venv/
+.venv/
+
+# Django
+db.sqlite3
+*.log
+media/
+staticfiles/
+
+# Testit
+.coverage
+.pytest_cache/
+.cache/
+
+# Paketointi
+*.egg-info/
+dist/
+build/
+
+# Editorit/OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
